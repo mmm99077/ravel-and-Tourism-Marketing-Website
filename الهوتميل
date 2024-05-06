@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel and Tourism Marketing Website</title>
+  <style>
+    /* CSS styles for the website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    /* Add your own CSS styles here */
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to our Travel and Tourism Marketing Website</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="offers.html">Offers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <section>
+      <h2>Explore Our Services</h2>
+      <p>Discover our wide range of travel and tourism services:</p>
+      <ul>
+        <li>Hotel bookings</li>
+        <li>Car rentals</li>
+        <li>Tour packages</li>
+        <!-- Add more services here -->
+      </ul>
+    </section>
+
+    <section>
+      <h2>Special Offers</h2>
+      <p>Take advantage of our exclusive offers and discounts:</p>
+      <ul>
+        <li>Summer getaway package - 20% off</li>
+        <li>Winter ski trip - buy one get one free</li>
+        <!-- Add more offers here -->
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>Have any questions or inquiries? Get in touch with us:</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2022 Travel and Tourism Marketing. All rights reserved.</p>
+  </footer>
+</body>
+</html>
